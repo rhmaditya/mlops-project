@@ -34,7 +34,7 @@
 
 **Food Calories Estimation** adalah aplikasi web berbasis machine learning yang dapat mendeteksi jenis buah dan mengestimasi jumlah kalori secara otomatis melalui analisis gambar. Sistem ini menggunakan YOLOv8 (You Only Look Once version 8) untuk deteksi objek buah dengan akurasi tinggi dan antarmuka web modern menggunakan Nuxt.js dan Bootstrap.
 
-### 🎓 Latar Belakang
+### Latar Belakang
 
 Dalam era modern, kesadaran akan pola makan sehat semakin meningkat. Namun, menghitung kalori makanan secara manual seringkali memakan waktu dan tidak praktis. Proyek ini hadir sebagai solusi untuk:
 
