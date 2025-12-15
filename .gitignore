@@ -1,0 +1,141 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Machine Learning / Models
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.onnx
+*.pb
+*.tflite
+*.caffemodel
+*.weights
+models/
+checkpoints/
+logs/
+wandb/
+mlruns/
+
+# Keep specific model files if needed (uncomment if you want to track them)
+# !yolov8_model/models/best.pt
+# !backend/yolov8n.pt
+
+# Dataset
+dataset/
+datasets/
+data/
+*.csv
+*.json
+*.npy
+# Keep specific files if needed
+# !labels.npy
+
+# Uploads
+uploads/
+*/uploads/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Nuxt.js
+.nuxt/
+.output/
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+out/
+
+# Logs
+logs/
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Windows
+*.lnk
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Package manager lock files (optional - uncomment if you don't want to track them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Cache
+.cache/
+*.cache
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# IDE
+*.sublime-project
+*.sublime-workspace

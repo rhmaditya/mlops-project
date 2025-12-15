@@ -1,0 +1,52 @@
+// https://nuxt.com/docs/api/configuration/nuxt-config
+export default defineNuxtConfig({
+  compatibilityDate: '2024-12-14',
+  
+  devtools: { 
+    enabled: true 
+  },
+  
+  // CSS Configuration
+  css: [
+    'bootstrap/dist/css/bootstrap.min.css',
+    'bootstrap-icons/font/bootstrap-icons.css',
+    '~/assets/css/main.css'  // Ubah dari @/assets ke ~/assets
+  ],
+
+  // Vite Configuration
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          // Hapus atau comment jika tidak pakai SCSS
+          // additionalData: '@use "@/assets/css/_variables.scss" as *;'
+        }
+      }
+    }
+  },
+
+  // Runtime Config
+  runtimeConfig: {
+    public: {
+      apiBase: 'http://localhost:3000', // ← GANTI DARI 3002 KE 3000
+      apiTimeout: 120000 // 120 seconds
+    }
+  },
+
+  // Development Server
+  devServer: {
+    port: 3001,
+    host: 'localhost'
+  },
+
+  // Nitro Configuration
+  nitro: {
+    devProxy: {
+      '/api': {
+        target: 'http://localhost:3000/api', // ← GANTI DARI 3002 KE 3000
+        changeOrigin: true,
+        timeout: 120000 // 120 seconds
+      }
+    }
+  }
+})
