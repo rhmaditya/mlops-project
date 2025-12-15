@@ -617,7 +617,7 @@ pip install ultralytics opencv-python numpy
 
 ---
 
-## 👥 Tim Pengembang
+## Tim Pengembang
 
 ### MLOps Team - Kelompok [Nomor Kelompok]
 
