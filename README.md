@@ -635,7 +635,7 @@ pip install ultralytics opencv-python numpy
 - **Mata Kuliah**: MLOps / Machine Learning Operations
 ---
 
-## 📚Referensi
+## Referensi
 
 ### Documentation
 
