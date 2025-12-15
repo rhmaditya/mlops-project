@@ -1,0 +1,1 @@
+export { default } from "file:///D:/dataScience/tugas_besar/mlops/Food-Calories-Estimation-Using-Image-Processing-main/frontend/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
