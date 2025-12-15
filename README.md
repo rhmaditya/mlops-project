@@ -1,4 +1,4 @@
-# 🍎 Food Calories Estimation Using YOLOv8
+# Food Calories Estimation Using YOLOv8
 
 > **Sistem Estimasi Kalori Makanan Berbasis Deep Learning menggunakan YOLOv8, Nuxt.js, Vue.js, dan Bootstrap**
 
@@ -11,7 +11,7 @@
 
 ---
 
-## 📋 Daftar Isi
+## Daftar Isi
 
 - [Tentang Proyek](#-tentang-proyek)
 - [Fitur Utama](#-fitur-utama)
@@ -30,7 +30,7 @@
 
 ---
 
-## 🎯 Tentang Proyek
+## Tentang Proyek
 
 **Food Calories Estimation** adalah aplikasi web berbasis machine learning yang dapat mendeteksi jenis buah dan mengestimasi jumlah kalori secara otomatis melalui analisis gambar. Sistem ini menggunakan YOLOv8 (You Only Look Once version 8) untuk deteksi objek buah dengan akurasi tinggi dan antarmuka web modern menggunakan Nuxt.js dan Bootstrap.
 
@@ -38,12 +38,12 @@
 
 Dalam era modern, kesadaran akan pola makan sehat semakin meningkat. Namun, menghitung kalori makanan secara manual seringkali memakan waktu dan tidak praktis. Proyek ini hadir sebagai solusi untuk:
 
-- ✅ Memudahkan tracking kalori harian
-- ✅ Membantu diet dan program penurunan berat badan
-- ✅ Edukasi nutrisi masyarakat
-- ✅ Implementasi teknologi AI dalam kehidupan sehari-hari
+- Memudahkan tracking kalori harian
+- Membantu diet dan program penurunan berat badan
+- Edukasi nutrisi masyarakat
+- Implementasi teknologi AI dalam kehidupan sehari-hari
 
-### 🎪 Tujuan Proyek
+### Tujuan Proyek
 
 1. Mengembangkan sistem deteksi buah otomatis menggunakan YOLOv8
 2. Mengestimasi kalori berdasarkan jenis dan ukuran buah
@@ -53,21 +53,21 @@ Dalam era modern, kesadaran akan pola makan sehat semakin meningkat. Namun, meng
 
 ---
 
-## ✨ Fitur Utama
+## Fitur Utama
 
-### 🔍 Deteksi Buah dengan YOLOv8
+### Deteksi Buah dengan YOLOv8
 - Deteksi real-time dengan confidence score
 - Support berbagai jenis buah (apple, banana, orange, dll)
 - Bounding box visualization
 - Multi-object detection dalam satu gambar
 
-### 📊 Estimasi Kalori
+### Estimasi Kalori
 - Perhitungan kalori berdasarkan database nutrisi
 - Informasi detail per buah
 - Kalori per 100 gram
 - Total kalori estimasi
 
-### 🎨 Antarmuka Modern
+### Antarmuka Modern
 - **Nuxt.js 3** - Framework Vue.js yang powerful
 - **Vue.js 3** - Composition API & Reactivity
 - **Bootstrap 5** - Responsive design
@@ -75,7 +75,7 @@ Dalam era modern, kesadaran akan pola makan sehat semakin meningkat. Namun, meng
 - Dark/Light mode support
 - Mobile-friendly responsive layout
 
-### 🚀 Performa Tinggi
+### Performa Tinggi
 - Fast detection (< 2 detik)
 - Efficient image processing
 - Optimized API endpoints
@@ -83,7 +83,7 @@ Dalam era modern, kesadaran akan pola makan sehat semakin meningkat. Namun, meng
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 ### Frontend Stack
 
@@ -128,7 +128,7 @@ Dalam era modern, kesadaran akan pola makan sehat semakin meningkat. Namun, meng
 
 ---
 
-## 🏗️ Arsitektur Sistem
+## Arsitektur Sistem
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -189,7 +189,7 @@ Dalam era modern, kesadaran akan pola makan sehat semakin meningkat. Namun, meng
 └─────────────────────────────────────────────────────────────┘
 ```
 
-### 🔄 Alur Kerja Sistem
+### Alur Kerja Sistem
 
 1. **User Upload Image** → User mengunggah gambar buah melalui frontend Nuxt.js
 2. **Frontend → Backend** → Image dikirim ke Express.js server via API
@@ -201,7 +201,7 @@ Dalam era modern, kesadaran akan pola makan sehat semakin meningkat. Namun, meng
 
 ---
 
-## 📦 Prasyarat
+## Prasyarat
 
 Sebelum memulai instalasi, pastikan sistem Anda memiliki:
 
@@ -243,19 +243,19 @@ pip --version
 
 ---
 
-## 🚀 Instalasi
+## Instalasi
 
-### 1️⃣ Clone Repository
+### 1️. Clone Repository
 
 ```bash
 # Clone project dari GitHub
-git clone https://github.com/username/mlops-project.git
+git clone https://github.com/rhmaditya/mlops-project/tree/main
 
 # Masuk ke direktori project
 cd mlops-project
 ```
 
-### 2️⃣ Install Python Dependencies
+### 2️. Install Python Dependencies
 
 ```bash
 # Install semua package Python yang dibutuhkan
@@ -265,7 +265,7 @@ pip install ultralytics opencv-python numpy torch pillow
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Install Node.js Dependencies
+### 3. Install Node.js Dependencies
 
 ```bash
 # Install dependencies untuk seluruh project
@@ -292,7 +292,7 @@ cd ../frontend
 npm install
 ```
 
-### 4️⃣ Setup YOLOv8 Model
+### 4️. Setup YOLOv8 Model
 
 ```bash
 # Buat folder untuk model (jika belum ada)
@@ -306,7 +306,7 @@ mkdir yolov8_model/models
 # Lokasi: yolov8_model/models/best.pt
 ```
 
-### 5️⃣ Konfigurasi Environment
+### 5️. Konfigurasi Environment
 
 **Backend (.env)**
 
@@ -325,7 +325,7 @@ Sudah dikonfigurasi, pastikan `apiBase` mengarah ke `http://localhost:3000`
 
 ---
 
-## 🎮 Cara Menjalankan
+##  Cara Menjalankan
 
 ### ⚡ Quick Start (Recommended)
 
@@ -338,7 +338,7 @@ Perintah ini akan menjalankan:
 - **Backend** di `http://localhost:3000`
 - **Frontend** di `http://localhost:3001`
 
-### 🔧 Manual Start
+###  Manual Start
 
 Jika ingin menjalankan terpisah:
 
@@ -354,7 +354,7 @@ cd frontend
 npm run dev
 ```
 
-### 🌐 Akses Aplikasi
+### Akses Aplikasi
 
 Setelah berhasil dijalankan:
 
@@ -362,14 +362,14 @@ Setelah berhasil dijalankan:
 - **Backend API**: http://localhost:3000
 - **Health Check**: http://localhost:3000/api/health
 
-### 🛑 Stop Aplikasi
+### Stop Aplikasi
 
 - Tekan `Ctrl + C` di terminal
 - Atau jalankan: `.\kill-port-3000.bat` (Windows)
 
 ---
 
-## 📁 Struktur Proyek
+## Struktur Proyek
 
 ```
 mlops-project/
@@ -420,7 +420,7 @@ mlops-project/
 └── 📄 README.md                   # Documentation (this file)
 ```
 
-### 📝 Penjelasan Struktur
+### Penjelasan Struktur
 
 #### Backend (`/backend`)
 - `server.js` - Main server dengan Express.js
@@ -522,16 +522,16 @@ Content-Type: multipart/form-data
 
 ---
 
-## 🤖 Model YOLOv8
+## Model YOLOv8
 
 ### Tentang YOLOv8
 
 **YOLO (You Only Look Once)** adalah algoritma deteksi objek real-time yang sangat cepat dan akurat. YOLOv8 adalah versi terbaru dari Ultralytics yang menawarkan:
 
-- ✅ Akurasi deteksi tinggi
-- ✅ Kecepatan inference sangat cepat
-- ✅ Easy to use API
-- ✅ Support berbagai task (detection, segmentation, classification)
+- Akurasi deteksi tinggi
+- Kecepatan inference sangat cepat
+- Easy to use API
+- Support berbagai task (detection, segmentation, classification)
 
 ### Model Architecture
 
@@ -551,19 +551,19 @@ Output (Bounding Boxes + Classes + Confidence)
 
 Model dapat mendeteksi berbagai jenis buah:
 
-- 🍎 Apple (Apel)
-- 🍌 Banana (Pisang)
-- 🍊 Orange (Jeruk)
-- 🥭 Mango (Mangga)
-- 🍉 Watermelon (Semangka)
-- 🍇 Grape (Anggur)
-- 🍓 Strawberry (Stroberi)
-- 🥝 Kiwi
-- Dan banyak lagi...
+- Apple (Apel)
+- Banana (Pisang)
+- Orange (Jeruk)
+- Mango (Mangga)
+- Watermelon (Semangka)
+- Grape (Anggur)
+- Strawberry (Stroberi)
+- Kiwi
+- Dan banyak lagi..
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -635,7 +635,7 @@ pip install ultralytics opencv-python numpy
 - **Mata Kuliah**: MLOps / Machine Learning Operations
 ---
 
-## 📚 Referensi
+## 📚Referensi
 
 ### Documentation
 
@@ -653,7 +653,6 @@ pip install ultralytics opencv-python numpy
 
 <div align="center">
 
-### ⭐ Made with ❤️ by MLOps Team ⭐
 
 **Last Updated**: December 15, 2025 | **Version**: 1.0.0
 
