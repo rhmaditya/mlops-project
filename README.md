@@ -327,7 +327,7 @@ Sudah dikonfigurasi, pastikan `apiBase` mengarah ke `http://localhost:3000`
 
 ##  Cara Menjalankan
 
-### ⚡ Quick Start (Recommended)
+### Quick Start (Recommended)
 
 ```bash
 # Jalankan frontend dan backend sekaligus dengan 1 perintah
