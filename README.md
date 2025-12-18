@@ -101,7 +101,6 @@ Dalam era modern, kesadaran akan pola makan sehat semakin meningkat. Namun, meng
 | Teknologi | Versi | Fungsi |
 |-----------|-------|--------|
 | **Node.js** | 16+ | JavaScript Runtime |
-| **Express.js** | 4.x | Web Framework |
 | **Multer** | 1.4+ | File Upload Middleware |
 | **CORS** | 2.8+ | Cross-Origin Resource Sharing |
 | **python-shell** | 5.0+ | Python Integration |
