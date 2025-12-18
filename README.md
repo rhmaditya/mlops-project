@@ -1,4 +1,4 @@
-# Food Calories Estimation Using YOLOv8
+# Fruits Calories Estimation Using YOLOv8
 
 > **Sistem Estimasi Kalori Makanan Berbasis Deep Learning menggunakan YOLOv8, Nuxt.js, Vue.js, dan Bootstrap**
 
