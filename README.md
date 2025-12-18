@@ -58,7 +58,6 @@ Dalam era modern, kesadaran akan pola makan sehat semakin meningkat. Namun, meng
 ### Deteksi Buah dengan YOLOv8
 - Deteksi real-time dengan confidence score
 - Support berbagai jenis buah (apple, banana, orange, dll)
-- Bounding box visualization
 - Multi-object detection dalam satu gambar
 
 ### Estimasi Kalori
